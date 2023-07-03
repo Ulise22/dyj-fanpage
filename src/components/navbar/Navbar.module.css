@@ -1,0 +1,117 @@
+.navbar {
+    background-color: #FFD600;
+    height: 68px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 12px solid #05A601;
+}
+
+.navbar__menu__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -20px;
+    align-self: last baseline;
+}
+
+.navbar__menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.navbar__menu__item {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #014D0D;
+    transition: all .3s ease;
+}
+
+.navbar__menu__item:hover {
+    color: #06af1f;
+    transition: all .3s ease;
+}
+
+.navbar__menuItem {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .navbar__menu__container {
+        margin-left: -32px;
+    }
+
+    .navbar__menu{
+        gap: 12px;
+    }
+
+    .navbar__menu__item {
+        font-size: 16px;
+    }
+
+    .navbar__logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .navbar__carrito {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar__menuItem {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .navbar__menu__container {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 80px;
+        left: -120%;
+        background-color: #05A601;
+        transition: all .3s ease;
+    }
+
+    .navbar__menu__container.activeMenu {
+        left: 0;
+        transition: all .3s ease;
+    }
+    
+    .navbar__menu {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .navbar__carrito__container{
+        align-self: center;
+    }
+
+    .navbar__menu__item {
+        color: #000000;
+        transition: all .3s ease;
+    }
+
+    .navbar__menu__item:hover {
+        color: #ffffff;
+        transition: all .3s ease;
+    }
+
+}

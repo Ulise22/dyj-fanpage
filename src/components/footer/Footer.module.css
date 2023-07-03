@@ -1,0 +1,154 @@
+.footer {
+    margin-top: 40px;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.footer__socials {
+    height: 70px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer__socials__image {
+    width: 48px;
+    height: 48px;
+}
+
+.footer__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #fff;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.footer__info__title {
+    text-align: center;
+    font-size: 28px;
+}
+
+.footer__info__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer__info__link:hover {
+    color: #D4D4D4;
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.footer__line {
+    background-color: #D4D4D4;
+    height: 80px;
+    width: 1px;
+    margin-bottom: 10px;
+}
+
+.footer__logo {
+    width: 137px;
+    height: 137px;
+}
+
+.footer__disclaimer {
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 960px) {
+    .footer__socials {
+        height: 60px;
+        gap: 20px;
+    }
+    
+    .footer__socials__image {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer__info__title {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .footer__info__link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .footer__container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__logo {
+        height: 110px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .footer__socials {
+        height: 56px;
+        gap: 18px;
+    }
+    
+    .footer__socials__image {
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer__info__title {
+        font-size: 18px;
+    }
+    
+    .footer__info__link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .footer__container {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .footer__logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .footer__disclaimer {
+        font-size: 15px;
+    }
+
+    .footer__info {
+        gap: 10px;
+        color: #fff;
+        margin-left: 0;
+    }
+}
