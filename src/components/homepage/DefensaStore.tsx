@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '@/app/page.module.css'
+import styles from './defesaStore.module.css'
 //images
 import local from '@/assets/images/tienda/dyj-titular.webp'
 import visitante from '@/assets/images/tienda/dyj-visitante.webp'

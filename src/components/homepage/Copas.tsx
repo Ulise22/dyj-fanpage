@@ -1,5 +1,5 @@
 import sudamericana from '@/assets/images/simbolos/sudamericana.svg'
-import styles from '@/app/page.module.css'
+import styles from './copas.module.css'
 import recopa from '@/assets/images/simbolos/recopa.svg'
 import Image from 'next/image'
 

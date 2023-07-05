@@ -1,4 +1,4 @@
-import styles from '@/app/page.module.css';
+import styles from './youtube.module.css';
 import Image from 'next/image';
 //images
 import vsEstudiantes from '@/assets/images/versus/dyj-estudiantes.jpg'

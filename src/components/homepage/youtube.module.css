@@ -1,0 +1,150 @@
+.youtube {
+    padding: 40px;
+    border-bottom: 1px solid #D4D4D4;
+    display: grid;
+    gap: 10px;
+    place-items: center;
+  }
+  
+  .youtube__titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 36px;
+  }
+  
+  .video__container {
+    border-bottom: 1px solid #D4D4D4;
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "titulo titulo imagen"
+                         "btn btn imagen";
+  }
+  
+  .video__titulo {
+    grid-area: titulo;
+    justify-self: self-start;
+    font-size: 22px;
+  }
+  
+  .video__btn {
+    grid-area: btn;
+    justify-self: self-start;
+    text-decoration: none;
+    color: #000;
+    height: fit-content;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #8B8B8B;
+    background-color: #D9D9D977;
+    cursor: pointer;
+  }
+  
+  .video__btn:hover {
+    background-color: #D9D9D9cc;
+  }
+  
+  .video__btn__text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .video__image {
+    grid-area: imagen;
+    justify-self: self-end;
+    width: 380px;
+    height: auto;
+  }
+  
+  .youtube__link {
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+  }
+  
+  .youtube__link:hover {
+    color: #09f;
+  }
+
+@media screen and (max-width: 960px) {
+    .youtube {
+        padding: 40px 20px;
+        gap: 10px;
+      }
+      
+      .youtube__titulo {
+        font-size: 32px;
+      }
+      
+      .video__titulo {
+        grid-area: titulo;
+        justify-self: self-start;
+        font-size: 18px;
+      }
+      
+      .video__btn {
+        padding: 10px;
+        gap: 7px;
+      }
+      
+      .video__btn__text {
+        font-size: 15px;
+      }
+      
+      .video__image {
+        grid-area: imagen;
+        justify-self: self-end;
+        width: 200px;
+        height: auto;
+      }
+    
+}
+
+@media screen and (max-width: 475px) {
+    .youtube {
+        padding: 40px 20px;
+      }
+      
+      .youtube__titulo {
+        font-size: 24px;
+      }
+      
+      .video__container {
+        width: 100%;
+        padding: 10px;
+        display: grid;
+        place-items: center;
+        grid-template-areas: "imagen"
+                             "titulo"
+                             "btn";
+      }
+      
+      .video__titulo {
+        justify-self: center;
+        text-align: center;
+      }
+      
+      .video__btn {
+        justify-self: center;
+        padding: 10px;
+        gap: 5px;
+      }
+      
+      .video__btn__text {
+        font-size: 15px;
+      }
+      
+      .video__image {
+        width: 100%;
+        height: auto;
+      }
+    
+      .youtube__link {
+        font-size: 15px;
+      }
+    
+}
