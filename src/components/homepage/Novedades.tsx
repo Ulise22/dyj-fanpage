@@ -1,4 +1,4 @@
-import styles from '@/app/page.module.css';
+import styles from './novedades.module.css';
 import Image from 'next/image';
 //images
 import partidoBanfield from '@/assets/images/homepage/dyj-vs-banfield.webp'
