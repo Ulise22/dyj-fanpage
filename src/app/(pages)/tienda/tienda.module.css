@@ -1,0 +1,44 @@
+.tienda__hero {
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(90deg, rgba(0, 95, 5, 0.379) 0%, rgba(34, 85, 21, 0.494) 100%), url('../../../assets/images/tienda/dyj-festejo-gol3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+}
+
+.tienda__hero__title {
+    color: #fff;
+    align-self: flex-end;
+    letter-spacing: 5px;
+    font-size: 48px;
+    line-height: 20px;
+    margin-left: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.tienda__container {
+    background-color: #fff;
+    padding: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .tienda__hero {
+        background-position: center;
+    }
+
+    .tienda__hero__title {
+        font-size: 36px;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .tienda__hero__title {
+        font-size: 32px;
+        line-height: 30px;
+    }
+}
