@@ -21,6 +21,10 @@
 .tienda__container {
     background-color: #fff;
     padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 960px) {

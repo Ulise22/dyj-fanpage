@@ -1,4 +1,4 @@
-import Producto from './Producto'
+import Producto from '@/components/tienda/Producto'
 import styles from './tienda.module.css'
 import data from '@/data.json'
 

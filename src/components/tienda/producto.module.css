@@ -1,0 +1,47 @@
+.producto {
+    border: 1px solid #bbb;
+    background-color: #eee;
+    width: 250px;
+}
+
+.producto__container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.producto__nombre {
+    text-align: center;
+}
+
+.producto__p {
+    margin-left: 0;
+    display: flex;
+
+    align-self: flex-start;
+}
+
+.producto__p span {
+    font-weight: 600;
+    margin-left: 90%;
+}
+
+.producto__btn {
+    padding: 15px 25px;
+    background-color: #ffd600;
+    color: #014d0d;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.producto__btn:hover {
+    background-color: #014d0d;
+    color: #ffd600;
+    transition: all .3s ease;
+}

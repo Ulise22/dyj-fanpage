@@ -37,4 +37,6 @@ export const productosSlice = createSlice({
     }
 }) 
 
+export const {addProducto, removeProducto, addOneProducto, removeOneProducto} = productosSlice.actions
+
 export default productosSlice.reducer
