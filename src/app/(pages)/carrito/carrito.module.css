@@ -1,0 +1,17 @@
+.carrito {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.carrito__container {
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 1px 40px 40px;
+    width: 80%;
+}
+
+.carrito__titulo {
+    font-size: 48px;
+    text-align: center;
+}
