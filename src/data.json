@@ -3,7 +3,7 @@
         "id": 0,
         "nombre": "Camiseta Titular Defensa y Justicia 22/23",
         "imagen": "https://i.ibb.co/0tjx9d8/dyj-titular.webp",
-        "año": "22/23",
+        "año": "2022/2023",
         "precio": 18990,
         "cantidad": 1,
         "precioTotal": 18990 
@@ -12,7 +12,7 @@
         "id": 1,
         "nombre": "Camiseta Suplente Defensa y Justicia 22/23",
         "imagen": "https://i.ibb.co/fD878ss/dyj-suplente.webp",
-        "año": "22/23",
+        "año": "2022/2023",
         "precio": 18980,
         "cantidad": 1,
         "precioTotal": 18980 
@@ -21,7 +21,7 @@
         "id": 2,
         "nombre": "Camiseta Arquero Defensa y Justicia 22/23",
         "imagen": "https://i.ibb.co/hgsJkws/dyj-arquero.webp",
-        "año": "22/23",
+        "año": "2022/2023",
         "precio": 12980,
         "cantidad": 1,
         "precioTotal": 12980 
@@ -30,7 +30,7 @@
         "id": 3,
         "nombre": "Camiseta Alternativa Cancer de Mama Defensa y Justicia",
         "imagen": "https://i.ibb.co/NWnrNww/dyj-alternativa.webp",
-        "año": "22/23",
+        "año": "2022/2023",
         "precio": 17990,
         "cantidad": 1,
         "precioTotal": 17990 
@@ -39,7 +39,7 @@
         "id": 4,
         "nombre": "Camiseta Entrenamiento Defensa y Justicia 22/23",
         "imagen": "https://i.ibb.co/pK9Rv5F/dyj-entrenamiento.webp",
-        "año": "22/23",
+        "año": "2022/2023",
         "precio": 10000,
         "cantidad": 1,
         "precioTotal": 10000 

@@ -2,11 +2,11 @@ import Image from 'next/image'
 import styles from './Footer.module.css'
 //images
 import logo from '@/assets/logo.png'
-import facebook from '@/assets/images/simbolos/bxl-facebook-circle.svg'
-import instagram from '@/assets/images/simbolos/bxl-instagram.svg'
-import youtube from '@/assets/images/simbolos/bxl-youtube.svg'
-import twitter from '@/assets/images/simbolos/bxl-twitter.svg'
-import tiktok from '@/assets/images/simbolos/bxl-tiktok.svg'
+import facebook from '@/assets/simbolos/bxl-facebook-circle.svg'
+import instagram from '@/assets/simbolos/bxl-instagram.svg'
+import youtube from '@/assets/simbolos/bxl-youtube.svg'
+import twitter from '@/assets/simbolos/bxl-twitter.svg'
+import tiktok from '@/assets/simbolos/bxl-tiktok.svg'
 
 export default function Footer () {
   return(

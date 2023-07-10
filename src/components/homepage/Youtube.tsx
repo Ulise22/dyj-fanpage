@@ -5,7 +5,7 @@ import vsEstudiantes from '@/assets/images/versus/dyj-estudiantes.jpg'
 import vsGimnasia from '@/assets/images/versus/dyj-gimnasia.jpg'
 import vsInstituto from '@/assets/images/versus/dyj-instituto.jpg'
 import vsIndependiente from '@/assets/images/versus/dyj-independiente.jpg'
-import play from '@/assets/images/simbolos/bx-play.svg'
+import play from '@/assets/simbolos/bx-play.svg'
 
 export default function Youtube () {
     return(

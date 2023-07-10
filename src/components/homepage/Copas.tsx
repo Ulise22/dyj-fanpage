@@ -1,6 +1,6 @@
-import sudamericana from '@/assets/images/simbolos/sudamericana.svg'
+import sudamericana from '@/assets/simbolos/sudamericana.svg'
 import styles from './copas.module.css'
-import recopa from '@/assets/images/simbolos/recopa.svg'
+import recopa from '@/assets/simbolos/recopa.svg'
 import Image from 'next/image'
 
 export default function Copas () {

@@ -5,9 +5,9 @@ import Link from 'next/link'
 import styles from './Navbar.module.css'
 import { useState } from 'react'
 //images
-import cart from '@/assets/images/simbolos/bxs-cart.svg'
-import menu from '@/assets/images/simbolos/bx-menu.svg'
-import x from '@/assets/images/simbolos/bx-x.svg'
+import cart from '@/assets/simbolos/bxs-cart.svg'
+import menu from '@/assets/simbolos/bx-menu.svg'
+import x from '@/assets/simbolos/bx-x.svg'
 
 
 export default function InteractiveNav () {
