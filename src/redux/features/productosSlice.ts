@@ -18,7 +18,7 @@ export const productosSlice = createSlice({
         removeProducto: (state, action) => {
             const productDeleted = state.listaProductos.find(item => item.id == action.payload)
             state.listaProductos = state.listaProductos.filter(item => item !== productDeleted)
-            state.productos -= 1
+            state.productos -= productDeleted.cantidad
             state.sumaPrecios -= productDeleted.precioTotal
         },
         addOneProducto: (state, action) => {
@@ -34,10 +34,15 @@ export const productosSlice = createSlice({
             state.sumaPrecios -= state.listaProductos[indexProducto].precio
             state.listaProductos[indexProducto].cantidad -= 1
             state.listaProductos[indexProducto].precioTotal -= state.listaProductos[indexProducto].precio
+        },
+        removeAll: (state) => {
+            state.listaProductos = []
+            state.productos = 0
+            state.sumaPrecios = 0
         }
     }
 }) 
 
-export const {addProducto, removeProducto, addOneProducto, removeOneProducto} = productosSlice.actions
+export const {addProducto, removeProducto, addOneProducto, removeOneProducto, removeAll} = productosSlice.actions
 
 export default productosSlice.reducer

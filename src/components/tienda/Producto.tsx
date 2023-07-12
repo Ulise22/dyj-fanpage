@@ -1,9 +1,10 @@
 import Image from "next/image"
 import styles from './producto.module.css'
 import Button from "./Button"
+import { Product } from "@/types/types"
 
 
-export default function Producto ({producto}: {producto: object} ) {
+export default function Producto ({producto}: {producto: Product} ) {
     return(
         <section className={styles.producto}>
             <Image className={styles.producto__imagen} src={producto.imagen} alt={producto.nombre} width={250} height={300} />
