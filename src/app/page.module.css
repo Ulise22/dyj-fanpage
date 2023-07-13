@@ -47,7 +47,7 @@
   border-radius: 50px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1080px) {
   .hero {
     background-image: linear-gradient(180deg, #014d0c69 0%, #014D0D69 100%), url(../assets/images/homepage/dyj-vs-peñarol.webp);
     background-position: center;
@@ -70,7 +70,7 @@
 
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 560px) {
   .hero__titulo {
     padding: 0 20px;
     font-size: 32px;

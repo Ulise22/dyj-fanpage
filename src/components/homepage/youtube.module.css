@@ -70,7 +70,7 @@
     color: #09f;
   }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1080px) {
     .youtube {
         padding: 40px 20px;
         gap: 10px;
@@ -104,7 +104,7 @@
     
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 560px) {
     .youtube {
         padding: 40px 20px;
       }

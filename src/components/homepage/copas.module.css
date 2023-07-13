@@ -23,7 +23,7 @@
     font-weight: 700;
   }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1080px) {
     .copas {
         padding: 40px 20px;
         width: 100%;
@@ -49,7 +49,7 @@
       }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 560px) {
     .copas {
         padding: 40px 10px;
         justify-content: center;

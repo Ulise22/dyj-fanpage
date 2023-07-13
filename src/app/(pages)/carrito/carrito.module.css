@@ -67,3 +67,10 @@
     color: #ffd600;
     transition: all .3s ease;
 }
+
+@media screen and (max-width: 1080px) {
+    .carrito__container {
+        width: 90%;
+        padding: 10px 15px;
+    }
+}

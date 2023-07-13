@@ -81,7 +81,7 @@
   grid-area: article2;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1080px) {
     .store {
     padding: 20px;
     grid-template-areas: "titulo"
@@ -115,7 +115,7 @@
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 560px) {
     .store {
         gap: 20px;
         align-items: center;

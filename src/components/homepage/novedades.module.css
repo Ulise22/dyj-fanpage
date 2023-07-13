@@ -5,7 +5,7 @@
                          "article1 article1"
                          "article2 article2"
                          "article3 article3";
-    gap: 40px;
+    gap: 20px;
     border-bottom: 1px solid #D4D4D4;
   }
   
@@ -40,7 +40,7 @@
   .novedades__article1 {
     border: 1px solid #D4D4D4;
     display: grid;
-    height: 300px;
+    height: 280px;
     grid-template-areas: "image titulo"
                          "image texto"
                          "image texto";
@@ -48,20 +48,20 @@
   
   .novedades__article__image {
     width: 450px;
-    height: 300px;
+    height: 280px;
     object-fit: cover;
     grid-area: image;
   }
   
   .novedades__article3 .novedades__article__image {
     width: 450px;
-    height: 300px;
+    height: 280px;
   }
   
   .novedades__article__titulo {
     text-align: center;
     font-size: 28px;
-    padding: 20px;
+    padding-top: 20px;
     font-family: 'Bebas Neue', sans-serif;
   }
   
@@ -77,7 +77,7 @@
     color: #666666;
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1080px) {
   .novedades {
     grid-template-areas: "title title"
                          "article1 article2"
@@ -129,7 +129,7 @@
 
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 560px) {
   .novedades {
     padding: 40px 0;
     place-items: center;
@@ -147,7 +147,7 @@
   .novedades__article__titulo {
     text-align: center;
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 0;
   }
 
   .novedades__article3 {
@@ -170,5 +170,6 @@
   .novedades__article__texto {
     font-size: 15px;
     width: 90%;
+    margin-left: -14px;
   }
 }

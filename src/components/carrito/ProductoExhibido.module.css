@@ -49,3 +49,37 @@
 .prod__btn {
     cursor: pointer;
 }
+
+@media screen and (max-width: 1080px) {
+    .prod__img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .prod__info__nombre {
+        font-size: 18px;
+    }
+
+    .prod__info__año {
+        font-size: 14px;
+    }
+
+    .prod__btn__container {
+        gap: 14px;
+        height: 45px;
+        border-radius: 8px;
+    }
+
+    .prod__btn__cant {
+        font-size: 14px;
+    }
+
+    .prod__btn {
+        height: 12px;
+        width: auto;
+    }
+
+    .prod__precio {
+        font-size: 18px;
+    }
+}
