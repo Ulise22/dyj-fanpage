@@ -73,4 +73,43 @@
         width: 90%;
         padding: 10px 15px;
     }
+
+    .carrito__titulo {
+        font-size: 36px;
+    }
+
+    .carrito__precio {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .carrito__container {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .carrito__btn__container {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carrito__productos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .carrito__precio__container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .carrito__precio {
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }

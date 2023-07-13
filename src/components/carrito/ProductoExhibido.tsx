@@ -37,6 +37,7 @@ export default function ProductoExhibido ({producto, prodIndex} : {producto : Pr
                 </div>
                 <h2 className={styles.prod__precio}> ${producto.precioTotal} </h2>
             </section>
+            <p className={styles.prod__eliminar} onClick={() => dispatch(removeProducto(producto.id))}> Eliminar </p>
         </article>
     )
 }

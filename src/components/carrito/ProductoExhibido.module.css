@@ -50,6 +50,11 @@
     cursor: pointer;
 }
 
+.prod__eliminar {
+    display: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1080px) {
     .prod__img {
         width: 80px;
@@ -81,5 +86,41 @@
 
     .prod__precio {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .prod {
+        flex-direction: column;
+    }
+
+    .prod__info {
+        flex-direction: column-reverse;
+    }
+
+    .prod__nombre__container {
+        text-align: center;
+    }
+
+    .prod__info__nombre {
+        font-size: 16px;
+    }
+
+    .prod__eliminar {
+        display: block;
+        color: rgb(0, 60, 255)
+    }
+
+    .prod__eliminar:hover {
+        color: #09f;
+    }
+
+    .prod__trash {
+        display: none;
+    }
+
+    .prod__img {
+        width: 120px;
+        height: 150px;
     }
 }

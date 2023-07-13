@@ -4,14 +4,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Navbar.module.css'
 import { useState } from 'react'
+import { useSelector } from 'react-redux'
 //images
 import cart from '@/assets/simbolos/bxs-cart.svg'
 import menu from '@/assets/simbolos/bx-menu.svg'
 import x from '@/assets/simbolos/bx-x.svg'
+import { RootState } from '@/redux/services/store'
 
 
 export default function InteractiveNav () {
     const [isOpen, setIsOpen] = useState(false)
+    const { productos } = useSelector((state: RootState) => state.productos)
     
     return(
         <>
@@ -35,6 +38,7 @@ export default function InteractiveNav () {
                 </ul>
                 
                 <Link className={styles.navbar__carrito__container} href="/carrito">
+                    <div> {productos} </div>
                     <Image className={styles.navbar__carrito} onClick={() => setIsOpen(false)} src={cart} alt='carrito' width={54} height={50} />
                 </Link>
             </section>
