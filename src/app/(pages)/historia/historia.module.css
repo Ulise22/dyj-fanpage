@@ -1,0 +1,38 @@
+.hero {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(#014D0D66, 0%, #014D0D66 100%), url('../../../assets/images/historia/hinchada.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.historia {
+    background-color: #fff;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    padding:0 20px 20px;
+}
+
+.titulo {
+    font-size: 48px;
+    text-align: center;
+}
+
+.historia__article {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.historia__article__img {
+    width: 450px;
+    height: auto;
+}
+
+.historia__article__p {
+    padding: 20px;
+}

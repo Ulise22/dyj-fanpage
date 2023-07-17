@@ -20,6 +20,7 @@ export default function Home() {
     <>
       <header className={styles.hero}>
         <h1 className={styles.hero__titulo}>Defensa y Justicia golea 4-1 y se gusta</h1>
+        <a href='https://www.youtube.com/watch?v=p1fzQEF8DYE&ab_channel=ESPNFans' target='_Blank' className={styles.hero__btn}>Ver Resumen</a>
       </header>
       <section className={styles.sponsors}>
         <h4 className={styles.sponsors__h4}>Nuestros Sponsors: </h4>

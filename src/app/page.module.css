@@ -21,6 +21,23 @@
   margin-bottom: 40px;
 }
 
+.hero__btn {
+  background-color: #FFD600;
+  color: #003909;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: all .3s ease;
+}
+
+.hero__btn:hover {
+  background-color: #003909;
+  color: #FFD600;
+  transition: all .3s ease;
+}
+
 .sponsors {
   padding: 11px 0;
   display: flex;
